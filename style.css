@@ -21,6 +21,10 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+}
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -60,6 +64,9 @@ body {
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    /*Customizations*/
+    background-color: lightblue;
+    font-size: 1.2rem;
 }
 
 #button-container {
@@ -73,3 +80,12 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+/*Customizations(made some in exisiting css rules too*/
+button:hover{
+background-color: lightblue;
+font-size: 1.5rem;    
+}
+button:active {
+    background-color: rgb(8, 205, 249);
+ }
+ 
